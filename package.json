@@ -2,7 +2,7 @@
     "name": "node-sockets",
     "version": "1.0.0",
     "description": "A package which creates a node socket cluster",
-    "main": "src/main.ts",
+    "main": "src/index.js",
     "devDependencies": {
         "@types/chai": "^4.1.7",
         "@types/fs-extra": "^5.0.4",
