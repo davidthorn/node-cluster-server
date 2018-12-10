@@ -1,6 +1,6 @@
 {
     "name": "node-sockets",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A package which creates a node socket cluster",
     "main": "src/index.js",
     "devDependencies": {
@@ -49,5 +49,5 @@
     "repository": {
         "type" : "git",
         "url" : "https://github.com/davidthorn/node-cluster-server.git"
-      }
+    }
 }
