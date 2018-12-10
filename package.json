@@ -1,6 +1,6 @@
 {
     "name": "node-sockets",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "A package which creates a node socket cluster",
     "main": "src/index.js",
     "devDependencies": {

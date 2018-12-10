@@ -1,11 +1,11 @@
 /// <reference path="../node_modules/mocha-typescript/globals.d.ts"/>
 import { expect } from 'chai'
-import Server from '../src/Server'
-import SocketClient from '../src/SocketClient'
+import { SocketServer } from '../src/Server'
+import { SocketClient } from '../src/SocketClient'
 import environment from '../environment'
 
 @suite('Server Test')
-class ServerUnitTest extends Server {
+class ServerUnitTest extends SocketServer {
 
    before() {
         

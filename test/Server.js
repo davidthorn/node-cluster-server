@@ -8,7 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 const Server_1 = require("../src/Server");
 const environment_1 = require("../environment");
-let ServerUnitTest = class ServerUnitTest extends Server_1.default {
+let ServerUnitTest = class ServerUnitTest extends Server_1.SocketServer {
     before() {
         //this.listen(() => {})
     }
